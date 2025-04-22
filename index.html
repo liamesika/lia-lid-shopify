@@ -89,8 +89,38 @@
       line-height: 1.6;
     }
 
-    .contact-btn-in-package {
+    form {
       margin-top: 20px;
+      background: #f1f1f1;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+
+    button {
+      background-color: #38b000;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #2d8600;
+    }
+
+    .contact-btn-in-package {
+      margin-top: 15px;
       background-color: #25D366;
       color: white;
       border: none;
@@ -182,6 +212,14 @@
         <li>הוספת כל הפיצ׳רים והאפליקציות הנדרשות</li>
         <li>UI/UX, באנר קבוע, חיבור יצירת קשר ONLINE</li>
       </ul>
+      <form action="https://formspree.io/f/meogqaoz" method="POST">
+        <label>שם מלא:</label>
+        <input type="text" name="name" required>
+        <label>טלפון:</label>
+        <input type="text" name="phone" required>
+        <input type="hidden" name="מסלול" value="חבילת שופיפיי מלאה – 4900 ש"ח">
+        <button type="submit">שלח פרטים</button>
+      </form>
       <a href="https://wa.me/972587878676" target="_blank" class="contact-btn-in-package">
         📲 דברו איתי בוואטסאפ לפרטים
       </a>
@@ -199,6 +237,14 @@
         <li>חיבור דומיין, קישור סליקה ואפליקציות</li>
         <li>תמיכה בחיבור מדיה חיצונית</li>
       </ul>
+      <form action="https://formspree.io/f/meogqaoz" method="POST">
+        <label>שם מלא:</label>
+        <input type="text" name="name" required>
+        <label>טלפון:</label>
+        <input type="text" name="phone" required>
+        <input type="hidden" name="מסלול" value="חבילת תבנית עם פיצ'רים – 3800 ש"ח">
+        <button type="submit">שלח פרטים</button>
+      </form>
       <a href="https://wa.me/972587878676" target="_blank" class="contact-btn-in-package">
         📲 שלחו לי הודעה עכשיו
       </a>
